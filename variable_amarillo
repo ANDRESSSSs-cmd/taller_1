@@ -1,0 +1,18 @@
+# Definir las variables
+x, y, z, w = 15, 10, 20, 8
+
+# Verificar si 'x' está entre 'y' y 'z'
+esta_entre = y <= x <= z
+
+# Verificar si 'w' es par
+es_par = (w % 2 == 0)
+
+# Imprimir resultados
+print(f"¿{x} está entre {y} y {z}? {'Sí' if esta_entre else 'No'}")
+print(f"¿{w} es par? {'Sí' if es_par else 'No'}")
+
+# Asignar los valores a, b, c, d
+a, b, c, d = 7, 5, 3, 3
+
+# Imprimir los valores de a, b, c, d
+print(f"a = {a}, b = {b}, c = {c}, d = {d}")
