@@ -1,0 +1,22 @@
+# Asignar valores a, b, c, d
+a, b, c, d = 7, 5, 3, 3
+
+# Verificar si 'a' es mayor que 'b' o si 'c' es igual a 'd', pero no ambas condiciones
+condicion_a_mayor_b = a > b
+condicion_c_igual_d = c == d
+solo_una_condicion = condicion_a_mayor_b != condicion_c_igual_d
+
+# Asignar valores a x, y, z
+x, y, z = -3, 5, 0
+
+# Verificar si 'x' es negativo, 'y' es positivo, y 'z' es cero
+es_x_negativo = x < 0
+es_y_positivo = y > 0
+es_z_cero = z == 0
+
+# Imprimir resultados
+print(f"¿'a' es mayor que 'b' o 'c' es igual a 'd', pero no ambas condiciones? {'Sí' if solo_una_condicion else 'No'}")
+
+print(f"¿'x' es negativo? {'Sí' if es_x_negativo else 'No'}")
+print(f"¿'y' es positivo? {'Sí' if es_y_positivo else 'No'}")
+print(f"¿'z' es cero? {'Sí' if es_z_cero else 'No'}")
